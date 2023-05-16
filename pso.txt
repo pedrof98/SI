@@ -1,0 +1,12 @@
+PSO
+
+No pso a população é chamada de nuvem. Uma nuvem é um número de particulas que se movem num espaço n-dimensional, 
+dentro de um subespaço de buscas. Cada particula P, numa dada iteração t, tem uma posição em Rn, x(t) e uma velocidade de deslocamento nesse espaço, v(t). 
+Possui também uma memória contendo a sua melhor posição já alcançada Pbest, e a melhor posição já alcançada pelas perticulas vizinhas a P, 
+Gbest que é determinada pela topologia da vizinhança implementada. A posição de cada particula representa uma solução potencial para o problema. 
+O objectivo do algoritmo é movimentar essas particulas de maneira a que eles se tornem soluções optimas para o problema.
+NO PASSO 1, a inicialização consiste na escolha do tamanho do enxame, escolhendo de maneira aleatória as posições das particulas.
+NO PASSO 2, é calculado o valor de desempenho de cada particula de maneira a verificar se este é satisfatório ou não.
+NO PASSO 3, iterativamente cada particula utiliza a informação da sua melhor posição no passado e da melhor posição global, verificada pelo conjunto de particulas vizinhas, mudando o vector velocidade.
+NO PASSO 4, a particula move-se, numa combinação linear destes dois vetores com pesos diferentes para uma posição.
+NO PASSO 5, volta-se ao passo 2 de maneira a termos um resultado satisfatório fazendo iterações sobre as particulas.

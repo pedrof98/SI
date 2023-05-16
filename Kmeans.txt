@@ -1,0 +1,13 @@
+K-means
+
+O K-means clusters é um método de quantização vetorial, original de processamento de sinal, que È popular para a an·lise de agrupamento em mineração de dados. 
+K-means pretende particionar n observaÁıes em k clusters, em que cada observação pertence ao cluster com a média mais próxima, servindo como um protótipo do cluster. 
+Isso resulta em uma partição do espaço de dados em células de Voronoi. 
+
+Assim sendo, o k-means consistem em agrupar um conjunto de pontos, tendo por base um conjunto de regras ou categorias. 
+Assim sendo, este mÈtodo È composto por 4 passos, cujo objectivo final È calcular o grau de pretenÁa de cada ponto em relaÁ„o a cada cluster.
+
+PASSO 0 -- Incializa os centros dos clusters Xi (i=1,2,...,n).
+PASSO 1 -- Calcular os Uik, k = 1, ..., n. i=1, .. ,3.
+PASSO 2 -- Calcular os centros dos agrupamentos xi = somatorio k=1 a n(Uik . Xk)/somatorio k=1 a n (Uik)
+PASSO 3 -- CritÈrios de paragem.
